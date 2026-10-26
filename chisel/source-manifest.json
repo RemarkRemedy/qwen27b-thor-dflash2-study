@@ -1,0 +1,12 @@
+{
+  "upstream_repo": "https://github.com/yuanlin2004/chisel-spark-recipes",
+  "upstream_revision": "84feafddff1e834bd16b849c827eed11676e5934",
+  "upstream_directory": "recipes/qwen3.8-27b/mods/chisel-passes/chisel_passes",
+  "adaptation": "Draft-only BF16-to-FP8 conversion with vLLM channel-scaled W8A8, dynamic token activation scales; target head retained. Full-vocabulary FP8 control uses identity mapping.",
+  "files": {
+    "chisel_thor.py": "5ef846f4fb3f007c3244e7347e4f530f8ff79c7a9dfa1e017bd04bd075e8d15a",
+    "full-vocab.txt": "6a28f5631c80fd6a0d3d08f82f40c3262cdc2c5e8fab0dfa46cd2033da30b8d0",
+    "qwen3.8-27b-100k.txt": "d2459ca59f94e761887fd6386c0cb91cd1e30e00133d49bd04579b9d8e22bd89",
+    "chisel_draft_vocab.py": "08c14f79a67334e3a5daad4cbae1d4501ace552ffc359aa8028375de6afeb9ad"
+  }
+}

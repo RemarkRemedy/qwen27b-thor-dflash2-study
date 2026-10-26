@@ -1,0 +1,153 @@
+{
+  "case": "complete_code",
+  "usage": {
+    "prompt_tokens": 83,
+    "total_tokens": 211,
+    "completion_tokens": 128
+  },
+  "elapsed_s": 2.9638636599993333,
+  "ttft_s": 0.16784556998754852,
+  "decode_tokens_per_s": 45.42553734679361,
+  "end_to_end_tokens_per_s": 43.18687182798037,
+  "finish_reason": "stop",
+  "held_during_reply": false,
+  "text": "```python\ndef fibonacci(n):\n    if isinstance(n, bool) or not isinstance(n, int):\n        raise TypeError(\"n must be a non-negative integer\")\n    if n < 0:\n        raise ValueError(\"n must be a non-negative integer\")\n    if n == 0:\n        return []\n    if n == 1:\n        return [0]\n    fibs = [0, 1]\n    for _ in range(2, n):\n        fibs.append(fibs[-1] + fibs[-2])\n    return fibs\n```",
+  "chunks": [
+    [
+      0.16784556998754852,
+      "```"
+    ],
+    [
+      0.32643953198567033,
+      "python\ndef fibonacci"
+    ],
+    [
+      0.3298708969959989,
+      "(n):\n   "
+    ],
+    [
+      0.48760863998904824,
+      " if isinstance"
+    ],
+    [
+      0.49347422597929835,
+      "(n, bool)"
+    ],
+    [
+      0.6514411550015211,
+      " or not isinstance(n"
+    ],
+    [
+      0.656752681999933,
+      ", int):\n"
+    ],
+    [
+      0.8169043009984307,
+      "        raise TypeError(\""
+    ],
+    [
+      0.8240257379948162,
+      "n must be a"
+    ],
+    [
+      0.9817597779911011,
+      " non-negative integer\")"
+    ],
+    [
+      0.986747569986619,
+      "\n    if n"
+    ],
+    [
+      1.1469646449841093,
+      " < 0:"
+    ],
+    [
+      1.1513360159879085,
+      "\n        raise ValueError"
+    ],
+    [
+      1.311852952989284,
+      "(\"n must be"
+    ],
+    [
+      1.3178100579825696,
+      " a non-negative integer"
+    ],
+    [
+      1.4770564139762428,
+      "\")\n    if"
+    ],
+    [
+      1.4816753689956386,
+      " n == 0"
+    ],
+    [
+      1.6423125859873835,
+      ":\n        return"
+    ],
+    [
+      1.6486297949741129,
+      " []\n    if"
+    ],
+    [
+      1.807395858981181,
+      " n == 1"
+    ],
+    [
+      1.8119740019901656,
+      ":\n        return"
+    ],
+    [
+      1.9739442169957329,
+      " [0]\n"
+    ],
+    [
+      1.9818494639766868,
+      "    fibs"
+    ],
+    [
+      2.1391972879937384,
+      " = [0,"
+    ],
+    [
+      2.145893424982205,
+      " 1]\n"
+    ],
+    [
+      2.3045280359801836,
+      "    for _ in"
+    ],
+    [
+      2.3098721079877578,
+      " range(2,"
+    ],
+    [
+      2.47333195398096,
+      " n):\n       "
+    ],
+    [
+      2.474590878991876,
+      " fibs.append(f"
+    ],
+    [
+      2.634473062993493,
+      "ibs[-1]"
+    ],
+    [
+      2.63891448098002,
+      " + fibs[-"
+    ],
+    [
+      2.798683348984923,
+      "2])\n   "
+    ],
+    [
+      2.80302506298176,
+      " return fibs\n"
+    ],
+    [
+      2.9636297789984383,
+      "```"
+    ]
+  ]
+}

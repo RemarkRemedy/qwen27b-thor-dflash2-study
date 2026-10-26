@@ -1,0 +1,1157 @@
+[
+  {
+    "variant": "mjolnir-combo-fi-head3-hnd-vt64",
+    "completed": true,
+    "error": null,
+    "cases": {
+      "prose": {
+        "decode_median": 32.469070973978155,
+        "request_rate_median": 31.627221796880725,
+        "request_rate_range": [
+          31.625287594066478,
+          31.929055203885312
+        ],
+        "ttft_median": 0.23373642298975028
+      },
+      "code": {
+        "decode_median": 42.80614697332682,
+        "request_rate_median": 41.807818879436375,
+        "request_rate_range": [
+          41.439896659411545,
+          41.92443074520432
+        ],
+        "ttft_median": 0.16798096799175255
+      },
+      "long_prose": {
+        "decode_median": 35.640451228373585,
+        "request_rate_median": 31.87098434704438,
+        "request_rate_range": [
+          31.809387430781637,
+          31.88756547657217
+        ],
+        "ttft_median": 0.8829630730033386
+      }
+    },
+    "valid_speed": true,
+    "aggregate_request_tokens_per_s": 34.53108512912598,
+    "draft_metrics": {
+      "num_drafts_total": 759.0,
+      "num_draft_tokens_total": 2277.0,
+      "num_accepted_tokens_total": 1548.0,
+      "accepted_fraction": 0.6798418972332015,
+      "accepted_per_draft": 2.039525691699605
+    },
+    "quality": {
+      "facts_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "facts_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "conversation_1": {
+        "passed": true,
+        "actual": {
+          "record_053_tank_litres": 259
+        },
+        "expected": {
+          "record_053_tank_litres": 259
+        }
+      },
+      "conversation_2": {
+        "passed": true,
+        "actual": {
+          "record_017_rain_mm": 10
+        },
+        "expected": {
+          "record_017_rain_mm": 10
+        }
+      },
+      "prefix_boundary_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "prefix_boundary_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "complete_code_natural_stop": true
+    },
+    "code_checks": {
+      "passed": true,
+      "checks": [
+        {
+          "case": 0,
+          "passed": true
+        },
+        {
+          "case": 1,
+          "passed": true
+        },
+        {
+          "case": 2,
+          "passed": true
+        },
+        {
+          "case": 5,
+          "passed": true
+        },
+        {
+          "case": 10,
+          "passed": true
+        },
+        {
+          "case": 200,
+          "passed": true
+        },
+        {
+          "case": "-1",
+          "passed": true
+        },
+        {
+          "case": "-200",
+          "passed": true
+        },
+        {
+          "case": "True",
+          "passed": true
+        },
+        {
+          "case": "False",
+          "passed": true
+        },
+        {
+          "case": "'5'",
+          "passed": true
+        },
+        {
+          "case": "2.5",
+          "passed": true
+        },
+        {
+          "case": "None",
+          "passed": true
+        }
+      ]
+    }
+  },
+  {
+    "variant": "mjolnir-dflash2-nvfp4-7-hnd-kv3",
+    "completed": true,
+    "error": null,
+    "cases": {
+      "prose": {
+        "decode_median": 32.513124246481475,
+        "request_rate_median": 31.57251032160673,
+        "request_rate_range": [
+          31.365439646810618,
+          31.771775114503235
+        ],
+        "ttft_median": 0.25896894600009546
+      },
+      "code": {
+        "decode_median": 73.1880004002707,
+        "request_rate_median": 68.14842355430804,
+        "request_rate_range": [
+          67.153259535189,
+          68.2640122709329
+        ],
+        "ttft_median": 0.2719985170115251
+      },
+      "long_prose": {
+        "decode_median": 37.235706833944995,
+        "request_rate_median": 32.32034647540967,
+        "request_rate_range": [
+          31.46633451832333,
+          32.39874647470345
+        ],
+        "ttft_median": 1.0774149509961717
+      }
+    },
+    "valid_speed": true,
+    "aggregate_request_tokens_per_s": 38.65487131082538,
+    "draft_metrics": {
+      "num_drafts_total": 561.0,
+      "num_draft_tokens_total": 3927.0,
+      "num_accepted_tokens_total": 1758.0,
+      "accepted_fraction": 0.4476699770817418,
+      "accepted_per_draft": 3.1336898395721926
+    },
+    "quality": {
+      "facts_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "facts_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "conversation_1": {
+        "passed": true,
+        "actual": {
+          "record_053_tank_litres": 259
+        },
+        "expected": {
+          "record_053_tank_litres": 259
+        }
+      },
+      "conversation_2": {
+        "passed": true,
+        "actual": {
+          "record_017_rain_mm": 10
+        },
+        "expected": {
+          "record_017_rain_mm": 10
+        }
+      },
+      "prefix_boundary_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "prefix_boundary_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "complete_code_natural_stop": true
+    },
+    "code_checks": {
+      "passed": true,
+      "checks": [
+        {
+          "case": 0,
+          "passed": true
+        },
+        {
+          "case": 1,
+          "passed": true
+        },
+        {
+          "case": 2,
+          "passed": true
+        },
+        {
+          "case": 5,
+          "passed": true
+        },
+        {
+          "case": 10,
+          "passed": true
+        },
+        {
+          "case": 200,
+          "passed": true
+        },
+        {
+          "case": "-1",
+          "passed": true
+        },
+        {
+          "case": "-200",
+          "passed": true
+        },
+        {
+          "case": "True",
+          "passed": true
+        },
+        {
+          "case": "False",
+          "passed": true
+        },
+        {
+          "case": "'5'",
+          "passed": true
+        },
+        {
+          "case": "2.5",
+          "passed": true
+        },
+        {
+          "case": "None",
+          "passed": true
+        }
+      ]
+    }
+  },
+  {
+    "variant": "mjolnir-dflash2-chisel-fullfp8-7-hnd-kv3",
+    "completed": true,
+    "error": null,
+    "cases": {
+      "prose": {
+        "decode_median": 30.483067891705435,
+        "request_rate_median": 29.682332772424687,
+        "request_rate_range": [
+          29.468913800206607,
+          30.370244514549228
+        ],
+        "ttft_median": 0.2590349699894432
+      },
+      "code": {
+        "decode_median": 74.94479180846037,
+        "request_rate_median": 69.62230028038424,
+        "request_rate_range": [
+          68.45074728203502,
+          70.61430586865025
+        ],
+        "ttft_median": 0.26610945601714775
+      },
+      "long_prose": {
+        "decode_median": 35.08506960918819,
+        "request_rate_median": 30.296338427106306,
+        "request_rate_range": [
+          30.041911241518388,
+          30.663181334807803
+        ],
+        "ttft_median": 1.0800794679962564
+      }
+    },
+    "valid_speed": true,
+    "aggregate_request_tokens_per_s": 37.09943124913314,
+    "draft_metrics": {
+      "num_drafts_total": 603.0,
+      "num_draft_tokens_total": 4221.0,
+      "num_accepted_tokens_total": 1698.0,
+      "accepted_fraction": 0.40227434257285005,
+      "accepted_per_draft": 2.81592039800995
+    },
+    "quality": {
+      "facts_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "facts_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "conversation_1": {
+        "passed": true,
+        "actual": {
+          "record_053_tank_litres": 259
+        },
+        "expected": {
+          "record_053_tank_litres": 259
+        }
+      },
+      "conversation_2": {
+        "passed": true,
+        "actual": {
+          "record_017_rain_mm": 10
+        },
+        "expected": {
+          "record_017_rain_mm": 10
+        }
+      },
+      "prefix_boundary_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "prefix_boundary_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "complete_code_natural_stop": true
+    },
+    "code_checks": {
+      "passed": true,
+      "checks": [
+        {
+          "case": 0,
+          "passed": true
+        },
+        {
+          "case": 1,
+          "passed": true
+        },
+        {
+          "case": 2,
+          "passed": true
+        },
+        {
+          "case": 5,
+          "passed": true
+        },
+        {
+          "case": 10,
+          "passed": true
+        },
+        {
+          "case": 200,
+          "passed": true
+        },
+        {
+          "case": "-1",
+          "passed": true
+        },
+        {
+          "case": "-200",
+          "passed": true
+        },
+        {
+          "case": "True",
+          "passed": true
+        },
+        {
+          "case": "False",
+          "passed": true
+        },
+        {
+          "case": "'5'",
+          "passed": true
+        },
+        {
+          "case": "2.5",
+          "passed": true
+        },
+        {
+          "case": "None",
+          "passed": true
+        }
+      ]
+    }
+  },
+  {
+    "variant": "mjolnir-dflash2-chisel-fp8-7-hnd-kv3",
+    "completed": true,
+    "error": null,
+    "cases": {
+      "prose": {
+        "decode_median": 32.90134889271001,
+        "request_rate_median": 31.882123643041236,
+        "request_rate_range": [
+          31.83451920694373,
+          32.0481112615701
+        ],
+        "ttft_median": 0.2787201110040769
+      },
+      "code": {
+        "decode_median": 74.29293503943241,
+        "request_rate_median": 69.04256692327428,
+        "request_rate_range": [
+          68.36668590691893,
+          70.26628118714687
+        ],
+        "ttft_median": 0.27055479399859905
+      },
+      "long_prose": {
+        "decode_median": 32.22696151936288,
+        "request_rate_median": 28.404449597077008,
+        "request_rate_range": [
+          27.839159974852382,
+          29.159240042270945
+        ],
+        "ttft_median": 1.0999195339973085
+      }
+    },
+    "valid_speed": true,
+    "aggregate_request_tokens_per_s": 37.07605180674694,
+    "draft_metrics": {
+      "num_drafts_total": 594.0,
+      "num_draft_tokens_total": 4158.0,
+      "num_accepted_tokens_total": 1719.0,
+      "accepted_fraction": 0.4134199134199134,
+      "accepted_per_draft": 2.893939393939394
+    },
+    "quality": {
+      "facts_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "facts_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "conversation_1": {
+        "passed": true,
+        "actual": {
+          "record_053_tank_litres": 259
+        },
+        "expected": {
+          "record_053_tank_litres": 259
+        }
+      },
+      "conversation_2": {
+        "passed": true,
+        "actual": {
+          "record_017_rain_mm": 10
+        },
+        "expected": {
+          "record_017_rain_mm": 10
+        }
+      },
+      "prefix_boundary_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "prefix_boundary_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "complete_code_natural_stop": true
+    },
+    "code_checks": {
+      "passed": true,
+      "checks": [
+        {
+          "case": 0,
+          "passed": true
+        },
+        {
+          "case": 1,
+          "passed": true
+        },
+        {
+          "case": 2,
+          "passed": true
+        },
+        {
+          "case": 5,
+          "passed": true
+        },
+        {
+          "case": 10,
+          "passed": true
+        },
+        {
+          "case": 200,
+          "passed": true
+        },
+        {
+          "case": "-1",
+          "passed": true
+        },
+        {
+          "case": "-200",
+          "passed": true
+        },
+        {
+          "case": "True",
+          "passed": true
+        },
+        {
+          "case": "False",
+          "passed": true
+        },
+        {
+          "case": "'5'",
+          "passed": true
+        },
+        {
+          "case": "2.5",
+          "passed": true
+        },
+        {
+          "case": "None",
+          "passed": true
+        }
+      ]
+    }
+  },
+  {
+    "variant": "mjolnir-dflash2-chisel-bf16-7-hnd-kv3",
+    "completed": true,
+    "error": null,
+    "cases": {
+      "prose": {
+        "decode_median": 29.744545719385883,
+        "request_rate_median": 28.987672814578733,
+        "request_rate_range": [
+          28.872016641544768,
+          29.93171660188012
+        ],
+        "ttft_median": 0.26786011797958054
+      },
+      "code": {
+        "decode_median": 70.26411466462383,
+        "request_rate_median": 65.39968512396268,
+        "request_rate_range": [
+          64.82705428852087,
+          66.07262732398996
+        ],
+        "ttft_median": 0.26500315699377097
+      },
+      "long_prose": {
+        "decode_median": 31.792888542531283,
+        "request_rate_median": 27.88416186722007,
+        "request_rate_range": [
+          27.607182554194594,
+          28.39036923875121
+        ],
+        "ttft_median": 1.1230089349846821
+      }
+    },
+    "valid_speed": true,
+    "aggregate_request_tokens_per_s": 35.1972427946155,
+    "draft_metrics": {
+      "num_drafts_total": 609.0,
+      "num_draft_tokens_total": 4263.0,
+      "num_accepted_tokens_total": 1704.0,
+      "accepted_fraction": 0.39971850809289233,
+      "accepted_per_draft": 2.7980295566502464
+    },
+    "quality": {
+      "facts_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "facts_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "conversation_1": {
+        "passed": true,
+        "actual": {
+          "record_053_tank_litres": 259
+        },
+        "expected": {
+          "record_053_tank_litres": 259
+        }
+      },
+      "conversation_2": {
+        "passed": true,
+        "actual": {
+          "record_017_rain_mm": 10
+        },
+        "expected": {
+          "record_017_rain_mm": 10
+        }
+      },
+      "prefix_boundary_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "prefix_boundary_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "complete_code_natural_stop": true
+    },
+    "code_checks": {
+      "passed": true,
+      "checks": [
+        {
+          "case": 0,
+          "passed": true
+        },
+        {
+          "case": 1,
+          "passed": true
+        },
+        {
+          "case": 2,
+          "passed": true
+        },
+        {
+          "case": 5,
+          "passed": true
+        },
+        {
+          "case": 10,
+          "passed": true
+        },
+        {
+          "case": 200,
+          "passed": true
+        },
+        {
+          "case": "-1",
+          "passed": true
+        },
+        {
+          "case": "-200",
+          "passed": true
+        },
+        {
+          "case": "True",
+          "passed": true
+        },
+        {
+          "case": "False",
+          "passed": true
+        },
+        {
+          "case": "'5'",
+          "passed": true
+        },
+        {
+          "case": "2.5",
+          "passed": true
+        },
+        {
+          "case": "None",
+          "passed": true
+        }
+      ]
+    }
+  },
+  {
+    "variant": "mjolnir-dflash2-nvfp4-10-hnd-kv4",
+    "completed": true,
+    "error": null,
+    "cases": {
+      "prose": {
+        "decode_median": 28.168568406618927,
+        "request_rate_median": 27.45028315454307,
+        "request_rate_range": [
+          27.06154319109679,
+          27.572555213415548
+        ],
+        "ttft_median": 0.27306762599619105
+      },
+      "code": {
+        "decode_median": 85.41211227431906,
+        "request_rate_median": 78.51881792664179,
+        "request_rate_range": [
+          77.7221375421804,
+          79.73660492611832
+        ],
+        "ttft_median": 0.2746882170031313
+      },
+      "long_prose": {
+        "decode_median": 27.82209532369588,
+        "request_rate_median": 24.870512173815772,
+        "request_rate_range": [
+          24.453600481019382,
+          25.163374538612267
+        ],
+        "ttft_median": 1.1275778010021895
+      }
+    },
+    "valid_speed": true,
+    "aggregate_request_tokens_per_s": 33.502580670882715,
+    "draft_metrics": {
+      "num_drafts_total": 621.0,
+      "num_draft_tokens_total": 6210.0,
+      "num_accepted_tokens_total": 1716.0,
+      "accepted_fraction": 0.2763285024154589,
+      "accepted_per_draft": 2.763285024154589
+    },
+    "quality": {
+      "facts_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "facts_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "conversation_1": {
+        "passed": true,
+        "actual": {
+          "record_053_tank_litres": 259
+        },
+        "expected": {
+          "record_053_tank_litres": 259
+        }
+      },
+      "conversation_2": {
+        "passed": true,
+        "actual": {
+          "record_017_rain_mm": 10
+        },
+        "expected": {
+          "record_017_rain_mm": 10
+        }
+      },
+      "prefix_boundary_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "prefix_boundary_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "complete_code_natural_stop": true
+    },
+    "code_checks": {
+      "passed": true,
+      "checks": [
+        {
+          "case": 0,
+          "passed": true
+        },
+        {
+          "case": 1,
+          "passed": true
+        },
+        {
+          "case": 2,
+          "passed": true
+        },
+        {
+          "case": 5,
+          "passed": true
+        },
+        {
+          "case": 10,
+          "passed": true
+        },
+        {
+          "case": 200,
+          "passed": true
+        },
+        {
+          "case": "-1",
+          "passed": true
+        },
+        {
+          "case": "-200",
+          "passed": true
+        },
+        {
+          "case": "True",
+          "passed": true
+        },
+        {
+          "case": "False",
+          "passed": true
+        },
+        {
+          "case": "'5'",
+          "passed": true
+        },
+        {
+          "case": "2.5",
+          "passed": true
+        },
+        {
+          "case": "None",
+          "passed": true
+        }
+      ]
+    }
+  },
+  {
+    "variant": "mjolnir-dflash2-7-hnd-kv3-cold",
+    "completed": true,
+    "error": null,
+    "cases": {
+      "prose": {
+        "decode_median": 29.59445349964176,
+        "request_rate_median": 28.796857033987767,
+        "request_rate_range": [
+          28.747202155162793,
+          28.878235747102284
+        ],
+        "ttft_median": 0.2828883760084864
+      },
+      "code": {
+        "decode_median": 65.19679365267655,
+        "request_rate_median": 60.93904635724116,
+        "request_rate_range": [
+          60.768864393033525,
+          61.439232039227896
+        ],
+        "ttft_median": 0.2890228879987262
+      },
+      "long_prose": {
+        "decode_median": 26.61292503097958,
+        "request_rate_median": 24.044625294669903,
+        "request_rate_range": [
+          23.655028659228307,
+          24.049432081973112
+        ],
+        "ttft_median": 1.0642701490141917
+      }
+    },
+    "valid_speed": true,
+    "aggregate_request_tokens_per_s": 32.28969344174331,
+    "draft_metrics": {
+      "num_drafts_total": 606.0,
+      "num_draft_tokens_total": 4242.0,
+      "num_accepted_tokens_total": 1704.0,
+      "accepted_fraction": 0.4016973125884017,
+      "accepted_per_draft": 2.8118811881188117
+    },
+    "quality": {
+      "facts_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "facts_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "conversation_1": {
+        "passed": true,
+        "actual": {
+          "record_053_tank_litres": 259
+        },
+        "expected": {
+          "record_053_tank_litres": 259
+        }
+      },
+      "conversation_2": {
+        "passed": true,
+        "actual": {
+          "record_017_rain_mm": 10
+        },
+        "expected": {
+          "record_017_rain_mm": 10
+        }
+      },
+      "prefix_boundary_first": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "prefix_boundary_repeat": {
+        "passed": true,
+        "actual": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        },
+        "expected": {
+          "record_017_tank_litres": 151,
+          "record_053_rain_mm": 12
+        }
+      },
+      "complete_code_natural_stop": true
+    },
+    "code_checks": {
+      "passed": true,
+      "checks": [
+        {
+          "case": 0,
+          "passed": true
+        },
+        {
+          "case": 1,
+          "passed": true
+        },
+        {
+          "case": 2,
+          "passed": true
+        },
+        {
+          "case": 5,
+          "passed": true
+        },
+        {
+          "case": 10,
+          "passed": true
+        },
+        {
+          "case": 200,
+          "passed": true
+        },
+        {
+          "case": "-1",
+          "passed": true
+        },
+        {
+          "case": "-200",
+          "passed": true
+        },
+        {
+          "case": "True",
+          "passed": true
+        },
+        {
+          "case": "False",
+          "passed": true
+        },
+        {
+          "case": "'5'",
+          "passed": true
+        },
+        {
+          "case": "2.5",
+          "passed": true
+        },
+        {
+          "case": "None",
+          "passed": true
+        }
+      ]
+    }
+  }
+]

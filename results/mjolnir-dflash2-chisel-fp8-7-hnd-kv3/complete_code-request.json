@@ -1,0 +1,18 @@
+{
+  "model": "qwen27-test",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Write a complete Python function fibonacci(n) that returns a list of the first n Fibonacci numbers, starting with 0, 1. Accept non-negative integers only. Reject bool and other types with TypeError; reject negative integers with ValueError. Do not use recursion. Return only one fenced Python code block containing the function. No imports or test execution are needed."
+    }
+  ],
+  "max_tokens": 1024,
+  "temperature": 0,
+  "stream": true,
+  "stream_options": {
+    "include_usage": true
+  },
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  }
+}

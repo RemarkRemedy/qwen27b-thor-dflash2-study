@@ -1,0 +1,117 @@
+{
+  "case": "warmup",
+  "prompt": "Count from one to twenty, spelling out each number and giving its square.",
+  "usage": {
+    "prompt_tokens": 27,
+    "total_tokens": 59,
+    "completion_tokens": 32
+  },
+  "elapsed_s": 1.6362349670089316,
+  "ttft_s": 1.0663073050091043,
+  "decode_tokens_per_s": 54.40735721496632,
+  "end_to_end_tokens_per_s": 19.55709335468891,
+  "stream_chunks": 7,
+  "text": "Here is the count from one to twenty, with each number spelled out and its square calculated:\n\n1. **One** \u2014 Square: $1^2",
+  "chunks": [
+    [
+      1.0663073050091043,
+      "Here"
+    ],
+    [
+      1.1601325850060675,
+      " is the count from one to twenty,"
+    ],
+    [
+      1.2609881639946252,
+      " with each number spelled out and its square"
+    ],
+    [
+      1.357270722015528,
+      " calculated"
+    ],
+    [
+      1.4510576309985481,
+      ":\n\n1. **One** \u2014"
+    ],
+    [
+      1.5428571950178593,
+      " Square"
+    ],
+    [
+      1.6360814000072423,
+      ": $1^2"
+    ]
+  ],
+  "held_during_reply": false,
+  "first_batch_tokens": 1,
+  "token_chunks": [
+    [
+      1.066302507999353,
+      [
+        8160
+      ]
+    ],
+    [
+      1.160128187009832,
+      [
+        369,
+        279,
+        1698,
+        494,
+        799,
+        310,
+        16570,
+        11
+      ]
+    ],
+    [
+      1.2609853589965496,
+      [
+        440,
+        1754,
+        1324,
+        65531,
+        680,
+        321,
+        1141,
+        9057
+      ]
+    ],
+    [
+      1.3572682130034082,
+      [
+        16100
+      ]
+    ],
+    [
+      1.4510533529974055,
+      [
+        25,
+        271,
+        16,
+        13,
+        2972,
+        3833,
+        332,
+        1892
+      ]
+    ],
+    [
+      1.5428552869998384,
+      [
+        15161
+      ]
+    ],
+    [
+      1.636078391020419,
+      [
+        25,
+        393,
+        16,
+        61,
+        17
+      ]
+    ]
+  ],
+  "measurement": "Exact returned tokens after first batch divided by stream interval; primary score uses full request time"
+}

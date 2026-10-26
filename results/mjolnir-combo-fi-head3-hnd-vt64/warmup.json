@@ -1,0 +1,153 @@
+{
+  "case": "warmup",
+  "prompt": "Count from one to twenty, spelling out each number and giving its square.",
+  "usage": {
+    "prompt_tokens": 27,
+    "total_tokens": 59,
+    "completion_tokens": 32
+  },
+  "elapsed_s": 1.6759530169947539,
+  "ttft_s": 0.8478636800136883,
+  "decode_tokens_per_s": 37.45267528247665,
+  "end_to_end_tokens_per_s": 19.09361400678225,
+  "stream_chunks": 11,
+  "text": "Here is the count from one to twenty, with each number spelled out and its square provided:\n\n1. **One** \u2014 Square: 1\n2",
+  "chunks": [
+    [
+      0.8478636800136883,
+      "Here"
+    ],
+    [
+      0.8553754620079417,
+      " is the count"
+    ],
+    [
+      1.0114736139948945,
+      " from one to twenty"
+    ],
+    [
+      1.0182474920002278,
+      ", with each number"
+    ],
+    [
+      1.1773423129925504,
+      " spelled"
+    ],
+    [
+      1.1836502240039408,
+      " out and its square"
+    ],
+    [
+      1.3440919060085434,
+      " provided:\n\n1"
+    ],
+    [
+      1.3511268790171016,
+      ". **"
+    ],
+    [
+      1.5089629029971547,
+      "One** \u2014"
+    ],
+    [
+      1.5151914909947664,
+      " Square: "
+    ],
+    [
+      1.675574652996147,
+      "1\n2"
+    ]
+  ],
+  "held_during_reply": false,
+  "first_batch_tokens": 1,
+  "token_chunks": [
+    [
+      0.8478602360119112,
+      [
+        8160
+      ]
+    ],
+    [
+      0.8553735540190246,
+      [
+        369,
+        279,
+        1698
+      ]
+    ],
+    [
+      1.0114706880121958,
+      [
+        494,
+        799,
+        310,
+        16570
+      ]
+    ],
+    [
+      1.0182450110150967,
+      [
+        11,
+        440,
+        1754,
+        1324
+      ]
+    ],
+    [
+      1.1773391000169795,
+      [
+        65531
+      ]
+    ],
+    [
+      1.1836491959984414,
+      [
+        680,
+        321,
+        1141,
+        9057
+      ]
+    ],
+    [
+      1.3440894700179342,
+      [
+        3766,
+        25,
+        271,
+        16
+      ]
+    ],
+    [
+      1.3511245360132307,
+      [
+        13,
+        2972
+      ]
+    ],
+    [
+      1.508960412000306,
+      [
+        3833,
+        332,
+        1892
+      ]
+    ],
+    [
+      1.5151902600191534,
+      [
+        15161,
+        25,
+        220
+      ]
+    ],
+    [
+      1.675571468018461,
+      [
+        16,
+        198,
+        17
+      ]
+    ]
+  ],
+  "measurement": "Exact returned tokens after first batch divided by stream interval; primary score uses full request time"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "variant": "mjolnir-dflash2-chisel-bf16-7-hnd-kv3",
+    "timing_requests": 9,
+    "focused_quality_checks_passed": true,
+    "target_head_unchanged": true,
+    "mapping_passed": true,
+    "new_host_oom_kills": 0,
+    "loaded_model_gib": 20.09,
+    "fp8_check": null
+  },
+  {
+    "variant": "mjolnir-dflash2-chisel-fullfp8-7-hnd-kv3",
+    "timing_requests": 9,
+    "focused_quality_checks_passed": true,
+    "target_head_unchanged": true,
+    "mapping_passed": true,
+    "new_host_oom_kills": 0,
+    "loaded_model_gib": 20.33,
+    "fp8_check": {
+      "kernel": "CutlassFP8ScaledMMLinearKernel",
+      "rows": 248320,
+      "relative_error": 0.037226
+    }
+  },
+  {
+    "variant": "mjolnir-dflash2-chisel-fp8-7-hnd-kv3",
+    "timing_requests": 9,
+    "focused_quality_checks_passed": true,
+    "target_head_unchanged": true,
+    "mapping_passed": true,
+    "new_host_oom_kills": 0,
+    "loaded_model_gib": 19.62,
+    "fp8_check": {
+      "kernel": "CutlassFP8ScaledMMLinearKernel",
+      "rows": 100032,
+      "relative_error": 0.037082
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "case": "conversation_2",
+  "usage": {
+    "prompt_tokens": 3056,
+    "total_tokens": 3071,
+    "completion_tokens": 15
+  },
+  "elapsed_s": 1.2863954000058584,
+  "ttft_s": 1.0991238950227853,
+  "decode_tokens_per_s": 74.8781813629147,
+  "end_to_end_tokens_per_s": 11.660489457542905,
+  "finish_reason": "stop",
+  "held_during_reply": false,
+  "text": "{\"record_017_rain_mm\": 10}",
+  "chunks": [
+    [
+      1.0991238950227853,
+      "{\""
+    ],
+    [
+      1.1917153770045843,
+      "record_017_rain_mm"
+    ],
+    [
+      1.286094248003792,
+      "\": 10}"
+    ]
+  ]
+}

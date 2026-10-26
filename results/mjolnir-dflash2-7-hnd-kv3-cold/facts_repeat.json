@@ -1,0 +1,41 @@
+{
+  "case": "facts_repeat",
+  "usage": {
+    "prompt_tokens": 2940,
+    "total_tokens": 2977,
+    "completion_tokens": 37
+  },
+  "elapsed_s": 1.6055788450175896,
+  "ttft_s": 1.0487844600284006,
+  "decode_tokens_per_s": 64.670485081726,
+  "end_to_end_tokens_per_s": 23.0446484237245,
+  "finish_reason": "stop",
+  "held_during_reply": false,
+  "text": "{\n  \"record_017_tank_litres\": 151,\n  \"record_053_rain_mm\": 12\n}",
+  "chunks": [
+    [
+      1.0487844600284006,
+      "{"
+    ],
+    [
+      1.1597500390198547,
+      "\n  \"record_017"
+    ],
+    [
+      1.2742233480094,
+      "_tank_litres\": 15"
+    ],
+    [
+      1.3808586400118656,
+      "1,\n  \"record_0"
+    ],
+    [
+      1.4938161560276058,
+      "53_rain_mm\": 1"
+    ],
+    [
+      1.6054526210064068,
+      "2\n}"
+    ]
+  ]
+}

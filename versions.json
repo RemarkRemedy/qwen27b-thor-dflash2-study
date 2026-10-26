@@ -1,0 +1,24 @@
+{
+  "target": {
+    "repo": "QUASAR-QAT/Qwen3.8-27B-QUASAR-NVFP4",
+    "revision": "4a22293aa6d1026844bc93a8727f1837e48acd89"
+  },
+  "bf16_drafter": {
+    "repo": "incoai/Qwen3.8-27B-DFlash2",
+    "revision": "015e795645c74b1a0eeef3b570031fb62e769bc5"
+  },
+  "nvfp4_drafter": {
+    "repo": "yuanlin2004/Qwen3.8-27B-Chisel-DFlash2-NVFP4-drafter",
+    "revision": "57697fc07c2f7e6475017afbba088caa6cce4a6c"
+  },
+  "mjolnir_revision": "171d9ce692324cb740342e39d53dd95bdaf0c441",
+  "chisel_revision": "84feafddff1e834bd16b849c827eed11676e5934",
+  "base_image": "vllm/vllm-openai@sha256:ef74f0f30e704546aa671746e1da6b1a25094b0b0914a29d33384dec86f88cac",
+  "recorded_local_image_id": "sha256:867638d1f4f4e360518afe46c3ed66a1cda32e1e47072169f713295df1349aec",
+  "image_id_note": "Historical local image ID, not a pullable registry digest; a new build can differ.",
+  "vllm": "0.32.0",
+  "torch": "2.13.0+cu130",
+  "flashinfer": "0.7.0.post1",
+  "architecture": "aarch64 / Thor SM110",
+  "study_date": "2026-10-26"
+}

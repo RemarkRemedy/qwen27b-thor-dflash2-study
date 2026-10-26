@@ -1,0 +1,33 @@
+{
+  "case": "conversation_1",
+  "usage": {
+    "prompt_tokens": 3011,
+    "total_tokens": 3032,
+    "completion_tokens": 21
+  },
+  "elapsed_s": 1.5083374039968476,
+  "ttft_s": 1.176999667979544,
+  "decode_tokens_per_s": 60.395312079442284,
+  "end_to_end_tokens_per_s": 13.9226143595945,
+  "finish_reason": "stop",
+  "held_during_reply": false,
+  "text": "{\n  \"record_053_tank_litres\": 259\n}",
+  "chunks": [
+    [
+      1.176999667979544,
+      "{"
+    ],
+    [
+      1.2878222259751055,
+      "\n  \"record_053"
+    ],
+    [
+      1.398861470981501,
+      "_tank_litres\": 25"
+    ],
+    [
+      1.5081511979806237,
+      "9\n}"
+    ]
+  ]
+}

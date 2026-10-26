@@ -1,0 +1,108 @@
+{
+  "case": "warmup",
+  "prompt": "Count from one to twenty, spelling out each number and giving its square.",
+  "usage": {
+    "prompt_tokens": 27,
+    "total_tokens": 59,
+    "completion_tokens": 32
+  },
+  "elapsed_s": 1.526613639027346,
+  "ttft_s": 1.0266763550171163,
+  "decode_tokens_per_s": 62.0417878746596,
+  "end_to_end_tokens_per_s": 20.9614267696365,
+  "stream_chunks": 6,
+  "text": "Here is the count from one to twenty, with each number spelled out and its square provided:\n\n1. **One** \u2014 Square: 1\n2",
+  "chunks": [
+    [
+      1.0266763550171163,
+      "Here"
+    ],
+    [
+      1.1200445470167324,
+      " is the count from one to twenty,"
+    ],
+    [
+      1.2208904140279628,
+      " with each number spelled out and its square provided"
+    ],
+    [
+      1.3216616510180756,
+      ":\n\n1. **"
+    ],
+    [
+      1.424577350000618,
+      "One** \u2014"
+    ],
+    [
+      1.5263395450019743,
+      " Square: 1\n2"
+    ]
+  ],
+  "held_during_reply": false,
+  "first_batch_tokens": 1,
+  "token_chunks": [
+    [
+      1.026673345011659,
+      [
+        8160
+      ]
+    ],
+    [
+      1.1200415000203066,
+      [
+        369,
+        279,
+        1698,
+        494,
+        799,
+        310,
+        16570,
+        11
+      ]
+    ],
+    [
+      1.2208883960265666,
+      [
+        440,
+        1754,
+        1324,
+        65531,
+        680,
+        321,
+        1141,
+        9057,
+        3766
+      ]
+    ],
+    [
+      1.3216587060014717,
+      [
+        25,
+        271,
+        16,
+        13,
+        2972
+      ]
+    ],
+    [
+      1.4245749520196114,
+      [
+        3833,
+        332,
+        1892
+      ]
+    ],
+    [
+      1.5263365730061196,
+      [
+        15161,
+        25,
+        220,
+        16,
+        198,
+        17
+      ]
+    ]
+  ],
+  "measurement": "Exact returned tokens after first batch divided by stream interval; primary score uses full request time"
+}

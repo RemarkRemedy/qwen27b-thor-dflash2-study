@@ -1,0 +1,65 @@
+{
+  "facts_first": {
+    "passed": true,
+    "actual": {
+      "record_017_tank_litres": 151,
+      "record_053_rain_mm": 12
+    },
+    "expected": {
+      "record_017_tank_litres": 151,
+      "record_053_rain_mm": 12
+    }
+  },
+  "facts_repeat": {
+    "passed": true,
+    "actual": {
+      "record_017_tank_litres": 151,
+      "record_053_rain_mm": 12
+    },
+    "expected": {
+      "record_017_tank_litres": 151,
+      "record_053_rain_mm": 12
+    }
+  },
+  "conversation_1": {
+    "passed": true,
+    "actual": {
+      "record_053_tank_litres": 259
+    },
+    "expected": {
+      "record_053_tank_litres": 259
+    }
+  },
+  "conversation_2": {
+    "passed": true,
+    "actual": {
+      "record_017_rain_mm": 10
+    },
+    "expected": {
+      "record_017_rain_mm": 10
+    }
+  },
+  "prefix_boundary_first": {
+    "passed": true,
+    "actual": {
+      "record_017_tank_litres": 151,
+      "record_053_rain_mm": 12
+    },
+    "expected": {
+      "record_017_tank_litres": 151,
+      "record_053_rain_mm": 12
+    }
+  },
+  "prefix_boundary_repeat": {
+    "passed": true,
+    "actual": {
+      "record_017_tank_litres": 151,
+      "record_053_rain_mm": 12
+    },
+    "expected": {
+      "record_017_tank_litres": 151,
+      "record_053_rain_mm": 12
+    }
+  },
+  "complete_code_natural_stop": true
+}

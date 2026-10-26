@@ -1,0 +1,41 @@
+{
+  "case": "conversation_2",
+  "usage": {
+    "prompt_tokens": 3066,
+    "total_tokens": 3085,
+    "completion_tokens": 19
+  },
+  "elapsed_s": 1.2230551630200353,
+  "ttft_s": 0.8904591269965749,
+  "decode_tokens_per_s": 54.16590306140987,
+  "end_to_end_tokens_per_s": 15.534867579549031,
+  "finish_reason": "stop",
+  "held_during_reply": false,
+  "text": "{\n  \"record_017_rain_mm\": 10\n}",
+  "chunks": [
+    [
+      0.8904591269965749,
+      "{"
+    ],
+    [
+      0.895347372017568,
+      "\n  \"record"
+    ],
+    [
+      1.053714306006441,
+      "_017"
+    ],
+    [
+      1.0582158449979033,
+      "_rain_mm\":"
+    ],
+    [
+      1.2188937939936295,
+      " 10\n"
+    ],
+    [
+      1.222771504020784,
+      "}"
+    ]
+  ]
+}
